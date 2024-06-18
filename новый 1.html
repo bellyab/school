@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Школа ИЛС</title>
+    <link rel="icon" type="image/x-icon" href="логотип2.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sss.css">
+</head>
+
+<body bgcolor="#000" background="fon.png">
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container">
+            <a href="#" class="brand"><img class="logo" src="логотип2.png" alt=""></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Главная</a></li>
+                <li><a href="#work">О школе</a></li>
+                <li><a href="#services">Вебинары</a></li>
+                <li><a href="#contact">Контакты</a></li>
+                <a href="#contact" class="custom-button4">Записаться</a>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- //Navbar -->
+
+    <!-- Hero -->
+    <div id="hero">
+        <div class="container">
+            <h1 class="heading-1"><span class="element"></span></h1>
+            <a href="#" class="brand"><img class="fon" src="Group 4.png" alt=""></a>
+            <div class="button-container">
+                <a href="#contact" class="custom-button2">Попробовать бесплатно</a>
+            </div>
+        </div>
+    </div>
+    <!-- //Hero -->
+
+    <!-- О школе -->
+    <section id="work">
+        <div class="container">
+            <div class="section-intro" data-aos="fade-up">
+            </div>
+            <img src="Group 3.png" alt="">
+            <div class="button-container">
+                <a href="#contact" class="custom-button3">Зарегистрироваться</a>
+            </div>
+        </div>
+    </section>
+    <!-- //Work -->
+
+    <!-- Тарифы -->
+    <section id="blog">
+        <div class="container">
+            <div class="section-intro" data-aos="fade-up">
+                <h1 class="heading-2">Отзывы</h1>
+            </div>
+            <img src="отзывы.png" alt="">
+        </div>
+    </section>
+    <!-- //Blog -->
+
+    <!-- Связь с нами -->
+    <section id="services">
+        <div class="container">
+            <div class="section-intro" data-aos="fade-up">
+                <img class="heading-2" src="Group 8.png" alt="Иконка">
+            </div>
+            <img class="tarif" src="Group 6 (2).png" alt="Иконка">
+            <a href="#contact" class="custom-button5">Зарегистрироваться</a>
+        </div>
+    </section>
+    <!-- //Services -->
+
+    <!-- Контакты -->
+    <section id="contact">
+        <div class="container">
+            <div class="forma">
+                <img class="heading-1" src="zapis.png" alt="Иконка">
+                <form action="send_form.php" method="post" id="registrationForm" class="form" autocomplete="off">
+                    <div class="form-group">
+                        <input type="text" name="user_name" id="firstName" class="form-input input js-input" placeholder=" ФИО" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="user_phone" id="phone" class="form-input input js-input js-input-phone" placeholder=" Телефон" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="user_email" id="email" class="form-input input js-input js-input-email" placeholder=" Почта" required />
+                    </div>
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="agreement" name="agreement" required>
+                        <label for="agreement">Я согласен с <a href="#">политикой конфиденциальности</a></label>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="custom-button4">Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- //Contact -->
+
+    <!-- Footer -->
+   <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>О школе ИЛС</h2>
+                <p>Школа ИЛС предлагает высококачественное образование и инновационные методы обучения для всех возрастов. Наши курсы помогут вам достичь новых высот в образовании и карьере.</p>
+            </div>
+
+            <div class="footer-section links">
+                <h2>Полезные ссылки</h2>
+                <ul>
+                    <li><a href="#hero">Главная</a></li>
+                    <li><a href="#work">О школе</a></li>
+                    <li><a href="#services">Вебинары</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section social">
+                <h2>Свяжитесь с нами</h2>
+                <div class="social-icons">
+                    <a href="#"><img src="VK com.png" alt="VK"></a>
+                    <a href="#"><img src="telegram .png" alt="Telegram"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Школа ИЛС. Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- typed js -->
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="lib/typed.min.js"></script>
+    <script src="lib/aos.js"></script>
+    <!-- AOS -->
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/rules.js"></script>
+</body>
+
+</html>
